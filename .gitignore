@@ -1,6 +1,4 @@
 .vscode
-/basic-algorithms/belong.js
-/basic-algorithms/largest_num.js
-/intermediate-algorithims/pig_latin2.js
-/intermediate-algorithims/dna_pairing.js
 /intermediate-algorithims/wherefore_art_thou.js
+/intermediate-algorithims/sorted_union.js
+random.js
