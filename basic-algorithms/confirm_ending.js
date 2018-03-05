@@ -1,5 +1,5 @@
 function confirmEnding(str, target) {
-  var targetLength = str.substr(-target.length);
+  var targetLength = str.substr(target.length);
   var x = str.substring(str.length, [str.length - target.length]);
   
   return (x === target);
