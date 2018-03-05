@@ -1,4 +1,4 @@
-function rot13(str) { // LBH QVQ VG!
+function rot13(str) { 
   unicode = [];
   temp = [];
   newStr = "";
@@ -23,5 +23,4 @@ function rot13(str) { // LBH QVQ VG!
   return newStr;
 }
 
-// Change the inputs below to test
 rot13("SERR PBQR PNZC");
