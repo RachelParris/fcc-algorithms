@@ -8,14 +8,16 @@ loop, and access each member with array syntax arr[i].
 */
 
 function largestOfFour(arr) {
-  // Sort the elements within each subarray from largest to smallest
   const flattenArr = arr
+    // Sort the elements within each subarray from largest to smallest
     .map((subArr) => subArr.sort((a, b) => b - a))
+    // Filter each subarrays keeping the first element in each array
     .map((subArr) => {
     return subArr.filter((element, i) => {
       if (i === 0) return element;
     })
   })
+  // Flatten the array from multiple subarrays into one array
     .reduce((total, element) => total.concat(element), []);
   return flattenArr;
 }
